@@ -1,23 +1,23 @@
 body {
-  background-image: url("/images/campus.png");
-  background-repeat: no-repeat;
-  background-color: white;
+  background-image: url("https://i.insider.com/5a4681bd0fa373560a8b45af?width=700");
+  background-repeat: repeat;
+  background-size: color;
   background-position: center top;
 }
 
 #splash_title {
 	width: 100%;
-  font-size: 100px;
-  color: rgb(80, 200, 176);
-  opacity: 0.85;
-  text-shadow: 4px 4px 4px rgba(255, 255, 255);
+  font-size: 75px;
+  color: rgb(4, 10, 33);
+  text-shadow: 4px 4px 4px rgb(240, 114, 55);
   text-align: center;
+  position: relative;
 }
 
 .menu_button {
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: rgba(240, 114, 55);
     font-size: 28px;
-    color: white;
+    color: rgb(247, 241, 246);
     cursor: pointer;
     text-align: center;
     user-select: none;
@@ -27,3 +27,9 @@ body {
     border-radius: 12px;
     padding: 16px 20px;
 }
+
+img{
+  height: 500px;
+  width: auto;
+}
+
