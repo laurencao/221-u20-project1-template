@@ -7,6 +7,7 @@ const app = express();
 app.use(bodyParser.json({type:'application/json'}));
 app.use(express.static('client/public'));
 
+///makes routes for each method to send to the API feed
 app.route('/api/FIs')
 	.get((req, res) => {
         feedController.getFIs(req, res);
@@ -27,6 +28,7 @@ app.route('/api/FIs/:FIid')
     .put((req, res) => {
         feedController.fullUpdateFI(req, res);
     })
+///makes routes for each method to send to the API feed
 app.route('/api/Brands')
 	.get((req, res) => {
         brandController.getBrands(req, res);

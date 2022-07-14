@@ -40,6 +40,7 @@ let brand4 = new candyBrand("Trolli", "Similar to Haribo, Trolli is one of the m
 
 let brands = [brand1, brand2, brand3, brand4];
 
+///displays each of the brands and the corresponding information 
 let displayCandyBrand = function(id, brand){
     document.getElementById((id)).innerHTML +=
     "<div> <h1>" + brand.name + "</h1> <img class = brandImage src = " + brand.pictureURL + "></img> <br/ ><p>" + brand.recommendation + "</p><a href = " + brand.purchaseURL + ">Get them here!</a> <hr/> </div>";
