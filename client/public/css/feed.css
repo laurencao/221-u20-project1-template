@@ -1,5 +1,5 @@
 body {
-	background-color:rgb(239, 235, 198);
+	background-color:rgb(246, 246, 242);
 }
 
 header {
@@ -11,7 +11,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(243, 158, 226);
+	background-color:rgb(209, 77, 86);
 	font-size: 25px;
 	color: rgb(2, 28, 15);
 }
@@ -31,7 +31,7 @@ footer {
 	left: 0px;
   	bottom: 0px;
 	width: 100%;
-	background-color: rgb(243, 158, 226);
+	background-color:rgb(209, 77, 85);
 	text-align: center;
 	font-size: 20px;
 }
@@ -60,9 +60,49 @@ a {
 	position: center;
 }
 
-.feedImage {
+.feedImage, .brandImage {
 	max-width: 150px;
 	max-height: 150px;
 }
 
+#parent {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#brands {
+	text-align: center;
+	max-width: 700px;
+}
+
+#brandOne {
+	float: left;
+	width: 22.5%;
+	margin-left: 2.5%;
+	color: rgb(205, 192, 9);
+}
+
+#brandTwo {
+	float: center ; 
+		float: left;
+	width: 22.5%;
+	margin-left: 2.5%;
+	color: rgb(225, 99, 31);
+}
+
+#brandThree {
+	float: center;
+		float: right;
+	width: 22.5%;
+	margin-right: 2.5%;
+	color: rgb(58, 186, 56);
+}
+
+#brandFour {
+	float: right;
+	width: 22.5%;
+	margin-right: 2.5%;
+	color: rgb(183, 24, 146);
+}
 
